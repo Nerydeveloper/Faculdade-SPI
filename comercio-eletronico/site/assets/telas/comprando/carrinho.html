@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/comprando/carrinho.css">
+    <title>Carrinho</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><h1><a href="../../index.html">NYASHOP</a></h1></div>
+        <div class="barra-de-pesquisa">
+            <input type="text" name="pesquisa" id="pesquisa" placeholder="Buscar produto">
+            <img src="../../midias/img/pesquisa.png"width=20px alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><img src="../../midias/img/carrinho/sacola-de-compras.png" alt=""></li>
+                <li onclick="telaCadastro()">Cadastre-se</li>
+                <li id="minhaconta" onclick="telalogin()"><img src="../../midias/img/login/entrar.png" alt=""></li>
+                
+            </ul>
+        </div>
+    </header>
+    <section class="gpsTelas"></section>
+    <main>
+        <div class="container">
+            <div class="container-titulo">Carrinho</div>
+            <!-- container dos produtos-->
+            <div class="container-produto">
+                <div class="container-block-produto">
+                    <div class="select-produto">
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="block-produto">
+                        <div class="imagem-produto">
+                            <img src="../../midias/img/produtos/cms03.png" alt="">
+                        </div>
+                        <div class="infor-produto">
+                            <div class="titulo-produto">Camisa geek</div>
+                            <div class="descricao-produto">Lorem, ipsusectes se possimus reiciendis repudiandae nemo amet voluptatum, sint ad architecto necessitatibus numquam deleniti nulla nisi. Ad minima impedit non voluptatem. Ratione.</div>
+                        </div>
+                        <div class="quantidade-produto">
+                            <input type="number" name="" id="" value="#">
+                        </div>
+                        <div class="valor-produto">199.20</div>
+                    </div>
+                </div>
+               
+                <div class="container-block-produto">
+                    <div class="select-produto">
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="block-produto">
+                        <div class="imagem-produto">
+                            <img src="../../midias/img/produtos/cms03.png" alt="">
+                        </div>
+                        <div class="infor-produto">
+                            <div class="titulo-produto">Camisa geek</div>
+                            <div class="descricao-produto">Lorem, ipsusectes se possimus reiciendis repudiandae nemo amet voluptatum, sint ad architecto necessitatibus numquam deleniti nulla nisi. Ad minima impedit non voluptatem. Ratione.</div>
+                        </div>
+                        <div class="quantidade-produto">
+                            <input type="number" name="" id="" value="#">
+                        </div>
+                        <div class="valor-produto">199.20</div>
+                    </div>
+                </div>
+                <div class="container-block-produto">
+                    <div class="select-produto">
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="block-produto">
+                        <div class="imagem-produto">
+                            <img src="../../midias/img/produtos/cms03.png" alt="">
+                        </div>
+                        <div class="infor-produto">
+                            <div class="titulo-produto">Camisa geek</div>
+                            <div class="descricao-produto">Lorem, ipsusectes se possimus reiciendis repudiandae nemo amet voluptatum, sint ad architecto necessitatibus numquam deleniti nulla nisi. Ad minima impedit non voluptatem. Ratione.</div>
+                        </div>
+                        <div class="quantidade-produto">
+                            <input type="number" name="" id="" value="#">
+                        </div>
+                        <div class="valor-produto">199.20</div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+
+            <div class="container-sub-total">
+                <div class="block-titulo-sub-total">Sub-Total:</div>
+                <div class="block-sub-total">181.98R$</div>
+            </div>
+            <div class="container-btn-continuarCompra">
+                <div class="block-btn-continuarCompra">
+                    <input onclick="telanselectdestino()" type="submit" name="" id="" value="Continuar">
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="../../scripts/js/carrinho.js"></script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/produto.css">
+    <title>NYASHOP | produto</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><h1><a href="../../index.html">NYASHOP</a></h1></div>
+        <div class="barra-de-pesquisa">
+            <input type="text" name="pesquisa" id="pesquisa" placeholder="Buscar produto">
+            <img src="../midias/img/pesquisa.png"width=20px alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><img src="../midias/img/carrinho/sacola-de-compras.png" alt=""></li>
+                <li onclick="telaCadastro()">Cadastre-se</li>
+                <li id="minhaconta" onclick="telalogin()"><img src="../midias/img/login/entrar.png" alt=""></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="main-container-section-center">
+            <div class="mcsc-block1">
+                <div class="mcsc-block1-imagens">
+                    <div class="mcsc-block1-imagens-mini">
+                        <img src="../midias/img/produtos/sht02.png" alt=""><img src="../midias/img/produtos/sht02.png" alt=""><img src="../midias/img/produtos/sht02.png" alt="">
+                    </div>
+                    <div class="mcsc-block1-imagens-max">
+                        <img src="../midias/img/produtos/sht02.png" alt="">
+                    </div>
+                </div>
+                <div class="mcsc-block1-informacoes">
+                    <div class="mcsc-block1-informacoes-titulo">Short universo estrelado</div>
+                    <div class="mcsc-block1-informacoes-avaliac-vendas">
+                        <div class="mcsc-block1-informacoes-av-avaliacao">Ainda não há avaliações</div>
+                        <div class="mcsc-block1-informacoes-av-vendas">
+                            <div class="mcsc-block1-informacoes-av-vendas-titulo">Vendas</div>
+                            <div class="mcsc-block1-informacoes-av-vendas-numVendas"></div>
+                        </div>
+                    </div>
+                    <div class="mcsc-block1-informacoes-precoProduto">49.90R$</div>
+                    <div class="mcsc-block1-informacoes-modeloProduto">
+                        <div class="mcsc-block1-informacoes-modeloProduto-titulo">Modelo</div>
+                        <div class="mcsc-block1-informacoes-modeloProduto-modelo"></div>
+                    </div>
+                    <div class="mcsc-block1-informacoes-corProduto">
+                        <div class="mcsc-block1-informacoes-corProduto-titulo">Cor</div>
+                        <div class="mcsc-block1-informacoes-corProduto-cor"></div>
+                    </div>
+                    <div class="mcsc-block1-informacoes-tamanhoProduto">
+                        <div class="mcsc-block1-informacoes-tamanhoProduto-titulo">Tamanho</div>
+                        <div class="mcsc-block1-informacoes-tamanhoProduto-tamanho"></div>
+                    </div>
+                    <div  class="mcsc-block1-informacoes-quantidadeProdutos">
+                        <div class="mcsc-block1-informacoes-quantidadeProdutos-titulo">Quantidade</div>
+                        <div class="mcsc-block1-informacoes-quantidadeProdutos-selectQuantidade">
+                            <button>-</button>
+                            <input type="text" name="" id="">
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <div class="mcsc-block1-informacoes-frete">
+                        <div class="mcsc-block1-informacoes-frete-titulo">Frete</div>
+                        <div class="mcsc-block1-informacoes-frete-cep">
+                            <input type="text" name="cep" id="cep" maxlength="9">
+                        </div>
+                        <button class="mcsc-block1-informacoes-frete-botao">Calcular</button>
+                    </div>
+                </div>
+                <div class="mcsc-block1-botoes-carrinhoCompra">
+                    <div class="mcsc-block1-botoes-carrinhoCompra-carrinho">
+                        <input type="submit" name="" id="" value="Adicionar ao carrinho">
+                    </div>
+                    <div class="mcsc-block1-botoes-carrinhoCompra-comprar">
+                        <input type="submit" name="" id="" value="Comprar">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="mcsc-block2">
+                <div class="mcsc-block2-descricao">
+                    <div class="mcsc-block2-descricao-titulo">Descrição</div>
+                    <div class="mcsc-block2-descricao-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, laboriosam vel. Quae accusantium fugit ullam debitis asperiores facilis ducimus. Ad ex temporibus ullam vel porro culpa perferendis perspiciatis quam ea?</div>
+                </div>
+                <div class="mcsc-block2-detalhes">
+                    <div class="mcsc-block2-detalhes-titulo">Detalhes tecnicos</div>
+                    <div class="mcsc-block2-detalhes-detalhes">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque labore, ratione quae autem possimus vel nemo voluptate, at maiores similique porro provident et cupiditate aspernatur, nesciunt reprehenderit excepturi minima.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <section class="section-block-listaProdutos">
+        <div class="blocklistproduto">
+            <div onclick="telaProduto()" class="blockProduto">
+                <div class="imgProduto">
+                    <div class="block-img">
+                        <img src="../midias/img/produtos/cms03.png" alt="">
+                    </div>
+                </div>
+                <div class="nomeProduto">
+                    <div class="nome">Camisa poliester Blaster COM esta</div>
+                </div>
+                <div class="avaliacaoProduto">
+                    <div class="avaliacao">AVALIAÇÃO</div>
+                    <div class="nivelEstrelas"></div>
+                </div>
+                <div class="precoProduto">
+                    <div class="tituloPreco">PREÇO</div>
+                    <div class="valorProduto">200.00R$</div>
+                </div>
+                <div class="btn-epip"><input type="submit" name="" id="" value="EXPANDIR"></div>
+            </div>
+            <div class="blockProduto">
+                <div class="imgProduto">
+                    <div class="block-img">
+                        <img src="../midias/img/produtos/cms03.png" alt="">
+                    </div>
+                </div>
+                <div class="nomeProduto">
+                    <div class="nome">Casisa poliester Blaster COM estampa personalizada geek Naruto</div>
+                </div>
+                <div class="avaliacaoProduto">
+                    <div class="avaliacao">AVALIAÇÃO</div>
+                    <div class="nivelEstrelas"></div>
+                </div>
+                <div class="precoProduto">
+                    <div class="tituloPreco">PREÇO</div>
+                    <div class="valorProduto">200.00R$</div>
+                </div>
+                <div class="btn-epip"><input type="submit" name="" id="" value="EXPANDIR"></div>
+            </div>
+            <div class="blockProduto">
+                <div class="imgProduto">
+                    <div class="block-img">
+                        <img src="../midias/img/produtos/cms03.png" alt="">
+                    </div>
+                </div>
+                <div class="nomeProduto">
+                    <div class="nome">Casisa poliester Blaster COM estampa personalizada geek Naruto</div>
+                </div>
+                <div class="avaliacaoProduto">
+                    <div class="avaliacao">AVALIAÇÃO</div>
+                    <div class="nivelEstrelas"></div>
+                </div>
+                <div class="precoProduto">
+                    <div class="tituloPreco">PREÇO</div>
+                    <div class="valorProduto">200.00R$</div>
+                </div>
+                <div class="btn-epip"><input type="submit" name="" id="" value="EXPANDIR"></div>
+            </div>
+            <div class="blockProduto">
+                <div class="imgProduto">
+                    <div class="block-img">
+                        <img src="../midias/img/produtos/cms03.png" alt="">
+                    </div>
+                </div>
+                <div class="nomeProduto">
+                    <div class="nome">Casisa poliester Blaster COM estampa personalizada geek Naruto</div>
+                </div>
+                <div class="avaliacaoProduto">
+                    <div class="avaliacao">AVALIAÇÃO</div>
+                    <div class="nivelEstrelas"></div>
+                </div>
+                <div class="precoProduto">
+                    <div class="tituloPreco">PREÇO</div>
+                    <div class="valorProduto">200.00R$</div>
+                </div>
+                <div class="btn-epip"><input type="submit" name="" id="" value="EXPANDIR"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer>
+        <div class="footer">
+            <ul>
+                <li>Seja um fornecedor</li><br>
+                <li>Seja um afiliado</li><br>
+                <li>Fretes</li><br>
+                <li>Produtos</li><br>
+                <li>Central de atendimento</li><br>
+                <li>Duvidas sobre nosso fornecedores</li><br>
+                <li>Falar com um vendedor</li><br>
+
+            </ul>
+        </div>
+        <div class="footer">
+            <ul>
+                <li>Gmail</li><br>
+                <li>Instagram</li><br>
+                <li>Linkdin</li><br>
+                <li>Facebook</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <ul>
+                <li>Seja um fornecedor</li><br>
+                <li>Seja um afiliado</li><br>
+                <li>Fretes</li><br>
+                <li>Produtos</li><br>
+                <li>Falar com um vendedor</li><br>
+                <li>Reclamações</li><br>
+                <li>Estamos no Reclame aqui</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../scripts/js/produto.js"></script>
+</body>
+</html>

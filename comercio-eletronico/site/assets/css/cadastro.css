@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppigs' sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+}
+.container-left{
+    padding-left: 15%;
+}
+.container-ringht{
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-ringht p{
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    letter-spacing: 0.70em;
+}
+.container
+{
+    padding: 40px;
+    border-radius: 20px;
+    border: 8px solid rgb(0, 255, 55);
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35);
+}
+.container .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.container .form h2{
+    color: rgb(0, 255, 55);
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.container .form .inputBox{
+    position: relative;
+    width: 300px;
+}
+.container .form .inputBox input{
+    padding: 12px 10px 12px 48px;
+    border: none;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0,0,0,0.1);
+    color: #fff;
+    font-weight: 300;
+    border-radius: 25px;
+    font-size: 1em;
+    box-shadow: -5px -5px 15px rgba(225, 255, 225,0.1),
+    5px 5px 15px rgba(0,0,0,0.35);
+    transition: 0.5s;
+    outline: none;
+}
+.container .form .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 17px 10px 12px 48px;
+    pointer-events: none;
+    font-size: 1em;
+    font-weight: 300;
+    transition: 0.5s;
+    letter-spacing: 0.05em;
+    color: black;
+}
+
+.container .form .inputBox input:valid~span,
+.container .form .inputBox input:focus ~ span{
+    color: rgb(47, 0, 255);
+    border: 1px solid rgb(57, 192, 255);
+    background-color: aquamarine;
+    transform: translateX(25px) translateY(-7px);
+    font-size: 0.6em;
+    padding: 0 8px;
+    border-radius: 10px;
+    letter-spacing: 0.1em;
+}
+.container .form .inputBox input:valid,
+.container .form .inputBox input:focus{
+    border: 1px solid rgb(21, 255, 0);
+
+}
+.container .form .inputBox i{
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    width: 25px;
+    padding-right: 8px;
+    padding: 2px 0;
+    color: rgb(60, 255, 0);
+    border-right: 1px solid rgb(51, 255, 0);
+}
+.container .form .inputBox input[type="submit"]{
+    background-color: rgb(0, 255, 64);
+    border: none;
+    color: black;
+    padding: 10px 0;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+}
+.container .form p{
+    color: rgb(161, 161, 161);
+    font-size: 0.75em;
+    font-weight: 300;
+}
+.container .form p a{
+    font-weight: 500;
+    color: #fff;
+}
