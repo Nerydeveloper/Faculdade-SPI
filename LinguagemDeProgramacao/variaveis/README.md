@@ -1,0 +1,1 @@
+Aqui explico o que são variaveis e quais os seus tipos em python
