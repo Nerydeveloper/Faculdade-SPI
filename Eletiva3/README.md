@@ -1,0 +1,1 @@
+Desenvolver uma aplicativo web de lista de compras
