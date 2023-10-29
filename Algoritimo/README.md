@@ -8,8 +8,11 @@ as habilidades fundamentais necessárias para escrever algoritmos e resolver pro
 
 #### Alguns dos principais recursos do Portugol incluem:
   Sintaxe simples e intuitiva.
+  
   Suporte para estruturas de controle, como loops e condicionais.
+  
   Capacidade de declarar variáveis e realizar operações matemáticas.
+  
   Ausência de preocupações com detalhes de implementação, como gerenciamento de memória, tornando-o mais focado na lógica.
 
 No entanto, é importante observar que o Portugol não é uma linguagem de programação utilizada na indústria ou no desenvolvimento de aplicativos do mundo real. 
