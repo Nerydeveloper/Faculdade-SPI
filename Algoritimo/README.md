@@ -7,13 +7,13 @@ linguagens de programação de uso geral. Ela é frequentemente usada em cursos 
 as habilidades fundamentais necessárias para escrever algoritmos e resolver problemas de maneira estruturada.
 
 #### Alguns dos principais recursos do Portugol incluem:
-  Sintaxe simples e intuitiva.
+  * Sintaxe simples e intuitiva.
   
-  Suporte para estruturas de controle, como loops e condicionais.
+  * Suporte para estruturas de controle, como loops e condicionais.
   
-  Capacidade de declarar variáveis e realizar operações matemáticas.
+  * Capacidade de declarar variáveis e realizar operações matemáticas.
   
-  Ausência de preocupações com detalhes de implementação, como gerenciamento de memória, tornando-o mais focado na lógica.
+  * Ausência de preocupações com detalhes de implementação, como gerenciamento de memória, tornando-o mais focado na lógica.
 
 No entanto, é importante observar que o Portugol não é uma linguagem de programação utilizada na indústria ou no desenvolvimento de aplicativos do mundo real. 
 Em vez disso, ela é usada como uma ferramenta de aprendizado para ensinar conceitos de programação a iniciantes antes de avançar para linguagens de programação 
