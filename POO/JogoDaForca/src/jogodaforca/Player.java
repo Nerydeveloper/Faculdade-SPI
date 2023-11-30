@@ -6,30 +6,36 @@ package jogodaforca;
  * Mantém informações sobre o jogador,
  * como nome e pontuação.
  */
-public class Player {
-    private String nome;
-    private double pontuacao;
+class Player {
+    private String name;
+    private int score;
 
-    public Player(String nome, double pontuacao) {
-        this.nome = nome;
-        this.pontuacao = pontuacao;
+    public Player(String name) {
+        this.name = name;
+        this.score = 0;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public int getScore() {
+        return score;
     }
 
-    public double getPontuacao() {
-        return pontuacao;
+    public void increaseScore(int points) {
+        score += points;
     }
-
-    public void setPontuacao(double pontuacao) {
-        this.pontuacao = pontuacao;
+        public void decreaseScore(int points) {
+        score -= points;
+        if (score < 0) {
+            score = 0;
+        }
     }
-    
-    
 }
+// Interface GameObserver
+interface GameObserver {
+    void onGameUpdate(String currentState, int remainingAttempts);
+}
+
+
