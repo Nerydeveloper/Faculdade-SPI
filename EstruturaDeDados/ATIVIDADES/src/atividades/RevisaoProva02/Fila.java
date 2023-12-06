@@ -78,15 +78,16 @@ public class Fila {
     public Fila questao01(Fila f, Fila F_Impares, Fila F_Pares) {
         int result;
         int nElemento;
-        for (int i = 0; i < f.tamanho; i++) {
+        for (int i = f.tamanho; i < 0; i--) {
+            System.out.println("fnwriognerion"+f.getTAMANHO_MAXIMO());
             nElemento = f.desenfileirar();
             result = nElemento % 2;
             if (result != 0) {
                 F_Impares.enfileirar(nElemento);
-                System.out.println("Adicionei no impar: ");
+                System.out.printf("Adicionei o elemento  no impar: "+ nElemento);
             } else {
                 F_Pares.enfileirar(nElemento);
-                System.out.println("Adicionei no par: ");
+                System.out.println("Adicionei no par: "+nElemento);
             }
             f.tamanho--;
         }

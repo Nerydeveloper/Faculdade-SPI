@@ -17,15 +17,7 @@ public class Run {
         f1.enfileirar(2);
         f1.enfileirar(3);
         
-        f2.enfileirar(10);
-        f2.enfileirar(11);
-        f2.enfileirar(12);
-        f2.enfileirar(31);
         
-        f3.enfileirar(123);
-        f3.enfileirar(211);
-        f3.enfileirar(453);
-        f3.enfileirar(15);
         
         System.out.println("Fila 02: "+ f2.tamanho());
         System.out.println("Fila 03: "+ f3.tamanho());
@@ -33,8 +25,34 @@ public class Run {
         f4.questao01(f1, f2, f3);
         System.out.println("Fila 02: "+ f2.tamanho());
         System.out.println("Fila 03: "+ f3.tamanho());
+        
+        
+        
+        
+        
+        
+        FilaEncadeada f1s = new FilaEncadeada();
+        FilaEncadeada f2s = new FilaEncadeada();
+        FilaEncadeada f3s = new FilaEncadeada();
 
-       
+        
+        
+
+
+        f1s.enqueue(20);
+        f1s.enqueue(30);
+        f1s.enqueue(40);
+        f1s.enqueue(50);
+
+        f2s.enqueue(203);
+        f2s.enqueue(303);
+        f2s.enqueue(403);
+        f2s.enqueue(503);
+        
+        
+        f3s.questao02(f1s, f2s);
+        System.out.println("Fila 3:" + f3s);
+
 
 
         
