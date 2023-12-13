@@ -27,7 +27,7 @@ public class PilhaEncadeada {
         topo = topo.getProximo();
         return valorRemovido;
     }
-
+    //exibir topo
     public int peek() {
         if (isEmpty()) {
             System.out.println("Erro: Pilha vazia. Não há elementos para visualizar.");
