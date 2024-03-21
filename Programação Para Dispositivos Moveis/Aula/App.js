@@ -4,6 +4,7 @@ import Signos, { Title } from './src/components/Signos';
 import styles from './src/components/Signos/style';
 import { useState } from 'react';
 import Form from './src/components/Form';
+import Flexbox from './src/components/Flexbox';
 
 
 
@@ -28,7 +29,7 @@ export default function App() {
       <Title />
     
 
-      <ScrollView showsVerticalScrollIndicator={false} style={{}}>
+      {/* <ScrollView showsVerticalScrollIndicator={false} style={{width:'100%', height:'100%'}}> */}
       
 
         {/* <Signos signos={signos[0]} dataInicio={'22/05'} dataFim={'21/06'} />
@@ -48,8 +49,9 @@ export default function App() {
         <Signos signos={signos[6]} dataInicio={'22/05'} dataFim={'21/06'} />
         <Signos signos={signos[7]} dataInicio={'22/05'} dataFim={'21/06'} />
         <Signos signos={signos[4]} dataInicio={'22/05'} dataFim={'21/06'} /> */}
-      <Form/>
-      </ScrollView>
+      {/* <Form/> */}
+      <Flexbox/>
+      {/* </ScrollView> */}
 
     </View>
 
