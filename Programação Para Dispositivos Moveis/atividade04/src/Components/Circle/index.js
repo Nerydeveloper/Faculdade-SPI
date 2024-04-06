@@ -19,20 +19,7 @@ export default function CircleTitle() {
 
     );
 }
-export function CircleSmall() {
 
-    return (
-
-            <View style={styles.boxCircle}>
-                <View style={styles.circleMini}>
-
-                </View>
-            </View>
-
-     
-
-    );
-}
 export function CircleSmallTitle() {
 
     return (
@@ -42,6 +29,21 @@ export function CircleSmallTitle() {
 
                 </View>
                 <View style={styles.miniTitleSmall}>
+
+                </View>
+            </View>
+
+     
+
+    );
+}
+
+export function CircleSmall() {
+
+    return (
+
+            <View style={styles.boxCircle}>
+                <View style={styles.circleMini}>
 
                 </View>
             </View>
